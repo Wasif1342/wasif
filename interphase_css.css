@@ -1,0 +1,55 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #000000;
+}
+
+/* Center the form on the page */
+form {
+    background-color: #ffffff;
+    width: 300px;
+    margin: 100px auto;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(50, 36, 130, 0.1);
+}
+
+/* Style form labels */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #6a4edd;
+}
+
+/* Style input fields */
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #46499f;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-family: 'tahoma', sans-serif;
+}
+
+/* Style submit button */
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4067e7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: cursive;
+}
+
+/* Submit button hover effect */
+input[type="submit"]:hover {
+    background-color: #2ea2f5;
+    transform: scale(0.97);
+}
