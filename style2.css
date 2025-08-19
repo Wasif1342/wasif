@@ -197,7 +197,7 @@ span {
 }
 
 #typewriter-text {
-  font-size: 4em;
+  font-size: 6em;
   font-weight: bold;
   white-space: nowrap;
   border-right: 2px solid black;
@@ -209,3 +209,4 @@ span {
   from, to { border-color: transparent }
   50% { border-color: black; }
 }
+
