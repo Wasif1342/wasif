@@ -135,10 +135,10 @@ span{
 }
 
 .home-img {
-    width: 30vw;            /* controls overall image size */
-    height: 30vw;           /* make height same as width */
-    border-radius: 50%;     /* round shape */
-    overflow: hidden;       /* hides extra edges */
+    width: 30vw;
+    height: 30vw;
+    border-radius: 50%;
+    overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -146,12 +146,14 @@ span{
 }
 
 .home-img img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;      /* ensures image fills the circle */
+    width: 120%;               /* slightly zoom out (change if needed) */
+    height: auto;
+    object-fit: cover;
+    object-position: center top; /* move face area into view */
     transition: 0.3s ease;
     cursor: pointer;
 }
+
 
 .social-icons a{
     display: inline-flex;
@@ -266,5 +268,6 @@ span{
         margin-top: 4rem;
     }
 }
+
 
 
