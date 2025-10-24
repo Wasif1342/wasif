@@ -130,10 +130,6 @@ span{
     font-size: 1.6rem;
 }
 
-.home-img{
-    border-radius: 50%;
-}
-
 .home-img {
     width: 30vw;
     height: 30vw;
@@ -149,10 +145,11 @@ span{
     width: 100%;
     height: 100%;
     object-fit: cover;
-    object-position: center 25%; /* show more forehead/hair */
+    object-position: center 10%; /* <--- moves face upward */
     transition: 0.3s ease;
     cursor: pointer;
 }
+
 
 
 .social-icons a{
@@ -268,6 +265,7 @@ span{
         margin-top: 4rem;
     }
 }
+
 
 
 
