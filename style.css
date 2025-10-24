@@ -131,8 +131,8 @@ span{
 }
 
 .home-img {
-    width: 30vw;
-    height: 30vw;
+    width: 28vw; /* slightly smaller, adjust if needed */
+    aspect-ratio: 1/1; /* ensures perfect circle */
     border-radius: 50%;
     overflow: hidden;
     display: flex;
@@ -145,10 +145,11 @@ span{
     width: 100%;
     height: 100%;
     object-fit: cover;
-    object-position: center 10%; /* <--- moves face upward */
+    object-position: center 35%; /* move this up or down to adjust face position */
     transition: 0.3s ease;
     cursor: pointer;
 }
+
 
 
 
@@ -265,6 +266,7 @@ span{
         margin-top: 4rem;
     }
 }
+
 
 
 
