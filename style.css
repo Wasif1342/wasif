@@ -134,20 +134,23 @@ span{
     border-radius: 50%;
 }
 
-.home-img img{
-    width: 30vw;
-    aspect-ratio: 1/1; /* keeps it perfectly round */
-    object-fit: cover; /* crops neatly */
-    border-radius: 50%;
+.home-img {
+    width: 30vw;            /* controls overall image size */
+    height: 30vw;           /* make height same as width */
+    border-radius: 50%;     /* round shape */
+    overflow: hidden;       /* hides extra edges */
+    display: flex;
+    justify-content: center;
+    align-items: center;
     box-shadow: 0 0 25px #4366b3;
-    cursor: pointer;
-    transition: 0.3s ease;
 }
 
-
-.home-img img:hover{
-    font-size: 1.8rem;
-    font-weight: 500;
+.home-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;      /* ensures image fills the circle */
+    transition: 0.3s ease;
+    cursor: pointer;
 }
 
 .social-icons a{
@@ -263,4 +266,5 @@ span{
         margin-top: 4rem;
     }
 }
+
 
