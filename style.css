@@ -131,8 +131,8 @@ span{
 }
 
 .home-img {
-    width: 66vw; /* slightly smaller, adjust if needed */
-    aspect-ratio: 1/1; /* ensures perfect circle */
+    width: 70vw; 
+    aspect-ratio: 1/1; 
     border-radius: 100%;
     overflow: hidden;
     display: flex;
@@ -266,6 +266,7 @@ span{
         margin-top: 4rem;
     }
 }
+
 
 
 
