@@ -135,13 +135,15 @@ span{
 }
 
 .home-img img{
-    position: relative;
-    width: 32vw;
+    width: 30vw;
+    aspect-ratio: 1/1; /* keeps it perfectly round */
+    object-fit: cover; /* crops neatly */
     border-radius: 50%;
-    box-shadow: 0 0 25px solid #4366b3;
+    box-shadow: 0 0 25px #4366b3;
     cursor: pointer;
-    transition: 0.2s linear;
+    transition: 0.3s ease;
 }
+
 
 .home-img img:hover{
     font-size: 1.8rem;
@@ -261,3 +263,4 @@ span{
         margin-top: 4rem;
     }
 }
+
